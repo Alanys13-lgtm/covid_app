@@ -101,7 +101,7 @@ if tabla:
     df_filtrado = df_covid[["date",columna]]
     col2.write(df_filtrado)   
     
-st.sidebar.divider
+st.sidebar.divider()
 
 st.sidebar.markdown("""Aplicación desarrollada por: Alanys López <br>
                     Comp3005<br> Universidad de Puerto Rico en Humacao""",
